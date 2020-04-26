@@ -1,0 +1,8 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes" access="global">
+    
+    <c:CustomCarousel/> 
+   			<lightning:layout>
+                <c:Articles/>
+    		</lightning:layout>
+	
+</aura:component>

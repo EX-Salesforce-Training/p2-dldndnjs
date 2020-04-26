@@ -1,0 +1,83 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes" access="global" Controller = "PokemonMainController">
+    <aura:attribute name= "name" type = "string" default="pikachu"/>    
+    <aura:attribute name="button" type="string" default="Search" />
+    <aura:attribute name="footer" type="string" default="Pokemon API" />
+    <aura:attribute name="title" type="string" default="Pokemon Search:" />
+    <aura:attribute name= "ListOfAbilites" type = "string[]"/>
+    <aura:attribute name="below" type="string" default="Below" />
+    <aura:attribute name="clear" type="string" default="Clear" />
+    <aura:attribute name= "input" type = "string"/>
+    <aura:attribute name= "input2" type = "string"/>
+    <aura:attribute name= "input3" type = "string"/>
+    <aura:attribute name= "input4" type = "string"/>
+    <aura:attribute name= "input5" type = "string" default = " "/>
+    <aura:attribute name= "input6" type = "string"/>
+    <aura:attribute name= "input7" type = "string" default = " "/>
+    <aura:attribute name= "input8" type = "string"/>
+    <aura:attribute name= "attack" type = "integer"/>
+    <aura:attribute name= "defense" type = "integer"/>
+    <aura:attribute name= "specialAttack" type = "integer"/>
+    <aura:attribute name= "specialDefense" type = "integer"/>
+    <aura:attribute name= "speed" type = "integer"/>
+    <aura:attribute name= "total" type = "integer" default = "0" />
+    
+    <lightning:card>
+		<div class = "weirdo">{!v.title} </div>        
+        <div class="slds-grid slds-grid_align-center">
+            <div class="slds-col slds-size_1-of-3">
+                <div>
+                <lightning:input type="Text" value = "{!v.name}" name="name"  />
+                </div>
+                <lightning:button class = "button" label="{!v.button}" variant="brand" onclick="{!c.onClick}"/>
+                <div>
+                <lightning:helptext content="Enter Name or Number of PokeDex to find Pokemon."/>
+                </div>
+                </div>
+        </div>
+        
+    </lightning:card>
+    
+    <lightning:card>
+        <div class = "Centering">
+            <div class="slds-grid slds-gutters">
+                <div class="slds-col slds-size_1-of-3">
+              
+                    <div class="James">Pokemon Name: {!v.input}</div> <br/>
+                    
+                    <div class="James">Base Exp: {!v.input2}</div> <br/>
+                    
+                    <div class="James">Pokedex Number: {!v.input4}</div> <br/>
+                    
+                    <div class="James">Pokemon Ability: {!v.input5}</div> <br/>
+                    
+                    <div class="James">Pokemon Height: {!v.input6}</div> <br/>
+                    
+                    <div class="James">Pokemon Weight: {!v.input8}</div> <br/>
+                    
+                    <div class="James">Pokemon Type: {!v.input7}</div> <br/>
+                </div> 
+                
+                <div class="slds-col slds-size_1-of-3">
+                    
+                    <div class="James">Stats {!v.below} </div> <br/>
+                    
+                    <div class="James">Attack: {!v.attack}</div> <br/>
+                    
+                    <div class="James">Defense: {!v.defense}</div> <br/>
+                    
+                    <div class="James">Special Attack: {!v.specialAttack}</div> <br/>
+                    
+                    <div class="James">Special Defence: {!v.specialDefense}</div> <br/>
+                    
+                    <div class="James">Speed: {!v.speed}</div> <br/>
+                    
+                    <div class="James">Total Value: {!v.total}</div> <br/>
+                    
+                    
+                </div> </div></div>
+    </lightning:card>
+    
+</aura:component> 
+
+
+<!-- ability 233 type 18  pokemon 807 slds-grid slds-grid_vertical-align-center-->

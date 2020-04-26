@@ -1,0 +1,30 @@
+.THIS .James{
+    border-bottom: 1px solid powderblue;
+    color: blue;    
+    font-size: 20px;
+    font-family: Times New Roman;
+}
+.THIS .Centering{
+    margin-left: 300px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.THIS .weirdo{
+  position: absolute;
+  left: -26%;
+  top: 37%;
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+}
+
+.THIS .button{
+  position: absolute;
+  left: 67%;
+  top: 40%;
+  width: 8%;
+  text-align: center;
+    
+}

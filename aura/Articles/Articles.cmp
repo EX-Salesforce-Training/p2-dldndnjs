@@ -1,0 +1,26 @@
+<aura:component >
+    <lightning:layout title = "This page is information">
+        <div class = "articleValue">
+        <div class = "slds-grid slds-gutters">
+            <div class="slds-grid">
+                <div class="slds-col slds-order_1">
+                    <div>
+                    <div class="text-block">
+                       
+                        <p>Learn more what of Pokemon is best</p>
+                      </div>
+                    </div>
+                    <a href = "https://www.polygon.com/pokemon-sword-shield-guide/2019/12/4/20986139/pokemon-sword-shield-best-pokemon-type-strongest-high-attack" onclick= "">
+                    <img class= "small" alt="" src = "https://assets.pokemon.com/assets//cms2/img/video-games/_tiles/pokemon-sword-shield/roundup/sword-shield-169-en.jpg" href = "https://game8.co/games/pokemon-sword-shield/archives/274246" />
+                    </a>
+                        <p>Click </p>
+                </div>
+                <div class="slds-col slds-order_2">
+                    <span>  </span>
+                </div>
+                
+            </div>
+        </div>    		
+      </div>
+    </lightning:layout>
+</aura:component>
