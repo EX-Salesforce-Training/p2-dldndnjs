@@ -1,21 +1,20 @@
 <aura:component>
     <lightning:carousel disableAutoRefresh="false" disableAutoScroll="false">
-        <lightning:carouselImage class = "Caro"
-            src = "/docs/component-library/app/images/examples/carousel-01.png"
+        <lightning:carouselImage class = "Caro"           
             header = "Pokemon Main Page"
             description = "Main Page for Pokemon."
             alternativeText = "Main Page for Pokemon."
             href = "https://www.pokemon.com/us/">
         </lightning:carouselImage>
-        <lightning:carouselImage class = "Caro"
-            src = "/docs/component-library/app/images/examples/carousel-02.png"
+        
+        <lightning:carouselImage class = "Caro2"            
             header = "Pokemon News in America"
             description = "Learn More about Pokemon."
             alternativeText = "Pokemon News."
             href = "https://www.pokemon.com/us/pokemon-news/">
         </lightning:carouselImage>
-        <lightning:carouselImage class = "Caro"
-            src = "/docs/component-library/app/images/examples/carousel-03.png"
+        
+        <lightning:carouselImage class = "Caro3"           
             header = "Pick Favorite Pokemons"
             description = "New to Pokemon? Find what you Like."
             alternativeText = "Pokemon Favorite Page."

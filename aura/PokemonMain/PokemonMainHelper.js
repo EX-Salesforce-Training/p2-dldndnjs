@@ -1,5 +1,5 @@
 ({
-    getResponse: function(component, input, LOA) {
+    getResponse: function(component, input) {
         var arrayName = []
 		var arrayName2 = " ";
         
